@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="Short overview of projects and contact information - Anzhelika Kovtun"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
@@ -15,7 +19,7 @@
       integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/style/app.css" />
     <title>About Lika</title>
   </head>
   <body>
@@ -36,20 +40,32 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              <a
+                class="nav-link"
+                aria-current="page"
+                href="index.html"
+                title="Homepage"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="about.html">About</a>
+              <a class="nav-link active" href="about.html" title="About me"
+                >About</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">Contact</a>
+              <a class="nav-link" href="about.html" title="Contact me"
+                >Contact</a
+              >
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <h1 class="mt-5">About me</h1>
-    <h3>Front-end developer from Kyiv, Ukraine</h3>
+    <div class="aboutme-section">
+      <h1 class="mt-5">About me</h1>
+      <h3>Front-end developer from Kyiv, Ukraine</h3>
+    </div>
     <div class="about-paragraphs">
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
@@ -61,13 +77,25 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-4">
-          <img src="images/weather.png" class="img-fluid p-2 shadow rounded" />
+          <img
+            src="images/weather.png"
+            alt="WeatherAppPic"
+            class="img-fluid p-2 shadow rounded"
+          />
         </div>
         <div class="col-sm-4">
-          <img src="images/yoga.png" class="img-fluid p-2 shadow rounded" />
+          <img
+            src="images/yoga.png"
+            alt="YogaAppPic"
+            class="img-fluid p-2 shadow rounded"
+          />
         </div>
         <div class="col-sm-4">
-          <img src="images/yogurt.png" class="img-fluid p-2 shadow rounded" />
+          <img
+            src="images/yogurt.png"
+            alt="YogurtAppPic"
+            class="img-fluid p-2 shadow rounded"
+          />
         </div>
       </div>
     </div>
