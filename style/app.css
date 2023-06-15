@@ -97,10 +97,15 @@ p {
 }
 
 @media (max-width: 770px) {
-  .aboutme-line {
-    margin-top: 550px;
+  h1 {
+    margin-top: 150px;
+  }
+
+  h1,
+  h2,
+  h3 {
     text-align: center;
-    font-size: 10px;
+    font-size: 24px;
   }
 
   .col-sm-4 {
@@ -113,5 +118,11 @@ p {
   .weather-img,
   .yoga-img {
     display: none;
+  }
+
+  .primary-link {
+    display: block;
+    margin: 0px auto;
+    padding: 20px;
   }
 }
