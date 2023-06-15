@@ -96,9 +96,22 @@ p {
   text-decoration: underline;
 }
 
-@media (max-width: 600px) {
-  .aboutme-section {
+@media (max-width: 770px) {
+  .aboutme-line {
+    margin-top: 550px;
     text-align: center;
     font-size: 10px;
+  }
+
+  .col-sm-4 {
+    max-width: 350px;
+    padding: 10px 0;
+    margin: 0 auto;
+  }
+
+  .yogurt-img,
+  .weather-img,
+  .yoga-img {
+    display: none;
   }
 }
